@@ -1,0 +1,25 @@
+@import 'cards_vars_mixins';
+@import 'home_page';
+@import 'menus_all';
+
+
+
+
+@media screen and (min-width: 1510px)/*breakpoint Largeur Ipad*/ {
+
+
+
+    .functioning{
+        border:  1px solid red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cards{
+        &__functioning{             
+            width: 600px;
+            margin:0;
+            padding: 0;
+        }
+    }
+}

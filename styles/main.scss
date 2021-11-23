@@ -1,0 +1,12 @@
+@import 'home_page';
+@import 'cards_vars_mixins';
+@import 'menus_all';
+@import 'loading';
+@import 'responsive';
+
+
+/* Mise en place de l'écran de chargement */
+
+/*body:not(.loader){
+    display: none;
+}*/

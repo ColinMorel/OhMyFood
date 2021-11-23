@@ -1,0 +1,83 @@
+@font-face {
+	font-family: Shrikhand;
+	src: url("font/shrikhand/Shrikhand-Regular.otf");    
+}
+
+.loader{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20%;   
+  }
+
+// body > *:not(.loader) {
+//     display: none;
+//     opacity: 0; 
+// }
+
+.loader p{
+    font-size: 50px;    
+    padding: 20px ;
+    width: 0;
+    height: 0;
+    transform: translate3d(0);
+    animation: bounce 1s infinite alternate ease-in-out;
+    scale: 1;
+}
+
+@keyframes bounce{
+    to{
+        transform: translate3d(0,100px,0);
+        scale: 2;        
+    }
+}
+
+@keyframes loading{
+    from{
+        
+    }
+    to{
+        
+    }
+}
+
+.loader p:nth-child(2n+1){
+    color:rgb(135,206,250);
+    text-shadow: 5px 5px rgba(255,105,180,0.4);
+}
+
+.loader p:nth-child(2n+2){
+    color: rgb(255,105,180);    
+    text-shadow:rgba(135,206,250,0.6) 5px 5px ;
+}
+
+.loader p:nth-child(8n+2){
+    animation-delay: 0.8s ;
+}
+.loader p:nth-child(8n+3){
+    animation-delay: 1.6s ;
+
+}
+.loader p:nth-child(8n+4){
+    animation-delay: 2.4s ;
+
+}
+.loader p:nth-child(8n+5){
+    animation-delay: 3.2s ;
+
+}
+.loader p:nth-child(8n+6){
+    animation-delay: 4s ;
+
+}
+.loader p:nth-child(8n+7){
+    animation-delay: 4.6s ;
+
+}
+.loader p:nth-child(8n+8){
+    animation-delay: 5.6s ;
+
+}
