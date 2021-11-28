@@ -4,13 +4,16 @@
 }
 
 .loader{
+     width: 100%;
+    // height: 100%;
+    // background-color: #fff ;
+    z-index: 1;
     position: fixed;
     display: flex;
     justify-content: center;
     flex-direction: row;
     box-sizing: border-box;
-    width: 100%;
-    margin-top: 20%;   
+    padding-top: 20%;   
   }
 
 // body > *:not(.loader) {
@@ -24,13 +27,14 @@
     width: 0;
     height: 0;
     transform: translate3d(0);
-    animation: bounce 1s infinite alternate ease-in-out;
+    animation: bounce 0.5s infinite alternate ease-in-out;
+    
     scale: 1;
 }
 
 @keyframes bounce{
     to{
-        transform: translate3d(0,100px,0);
+        transform: translate3d(0,50px,0);
         scale: 2;        
     }
 }
@@ -40,7 +44,6 @@
         
     }
     to{
-        
     }
 }
 
@@ -55,29 +58,29 @@
 }
 
 .loader p:nth-child(8n+2){
-    animation-delay: 0.8s ;
+    animation-delay: 0.5s ;
 }
 .loader p:nth-child(8n+3){
-    animation-delay: 1.6s ;
+    animation-delay: 1s ;
 
 }
 .loader p:nth-child(8n+4){
-    animation-delay: 2.4s ;
+    animation-delay: 1.5s ;
 
 }
 .loader p:nth-child(8n+5){
-    animation-delay: 3.2s ;
+    animation-delay: 2s ;
 
 }
 .loader p:nth-child(8n+6){
-    animation-delay: 4s ;
+    animation-delay: 2.5s ;
 
 }
 .loader p:nth-child(8n+7){
-    animation-delay: 4.6s ;
+    animation-delay: 3s ;
 
 }
 .loader p:nth-child(8n+8){
-    animation-delay: 5.6s ;
+    animation-delay: 3.5s ;
 
 }

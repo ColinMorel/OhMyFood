@@ -40,6 +40,39 @@ $color-secondary:#dc6edb;
         }
 }
 
+
+
+.menus__hearths{
+    .hearth__base{
+        opacity: 1;
+        position: absolute;
+        right: 20px;
+        font-size: 200%;
+        font-weight: 20;    
+        color: darken($color-primary,20);      
+        transition: .4s ease-in-out;
+     
+    }         
+    .hearth__hover{
+        position: absolute;
+        right: 20px;
+        top:57px;
+        scale: 0; 
+        font-size: 200%;
+        font-weight: 900;
+        color:$color-secondary;    
+        transition: .4s ease-in-out;
+
+    }
+    &:hover .hearth__base{
+        opacity: 0;
+    }
+
+    &:hover .hearth__hover{
+        scale: 1;
+    }
+}
+
 .texte__cards__restaurants{
     color: inherit;
     padding: 1rem;
@@ -47,27 +80,7 @@ $color-secondary:#dc6edb;
     align-items: center;
     margin: 0 0 0 20px;
     padding: 0;
-    position: relative;
-        .fa-heart{
-            font-weight: normal;
-            display: flex;
-            align-items: center;
-            color: darken(grey,20);
-            font-size: 200%;        
-            padding:0 20px 0 0;
-            position: absolute;
-            right: 5%;
-        } 
-        
-        .fa-heart:not(:first-child){
-            font-weight:bold;
-            transition: color 1s ease-out;
-        }
-
-        .fa-heart:hover{
-            color: darken($color-secondary,40);
-            font-weight: bold;
-        }
+    position: relative;      
 
         .texte__cards__restaurants_details{            
             text-align: start;
@@ -144,26 +157,39 @@ $color-secondary:#dc6edb;
         }
 
         &__note{
-            overflow: hidden;            
+            display: flex;
+            justify-content: space-between;
             margin: 0 20px 0 0;
-            text-align: start;
             padding: 0 0 0 5%;
             border-radius: 20px;
             font-size: 1.5rem; 
             margin-bottom:20px;
+            overflow: hidden;
                 >p{                    
                     display: flex;   
-                    align-items: center;               
+                    align-items: center;
+                    justify-content: flex-end;               
                     padding-right: 10px;
                     color: lighten(black,10);
                 }
 
-            &__texte{
-                flex: 1;
+            &__texte{      
+                overflow: hidden;   
+                width: 100%;
+
                 h3{
+                    text-align: start;
+                    overflow: hidden;
+                    white-space: nowrap;                
+                    text-overflow: ellipsis;
                     margin: 5px 0;
                 }
+
                 p{
+                    text-align: start;
+                    overflow: hidden;
+                    white-space: nowrap;                
+                    text-overflow: ellipsis;
                     margin:15px 0;
                     opacity: 30%;
                 }
@@ -171,18 +197,16 @@ $color-secondary:#dc6edb;
         }
         &__green{
             height: 98px;
-            width: 50px;
+            max-width: 100px;
+            width: 0;
 
             display: flex;
             align-items: center;
             justify-content: center;
             background-color: #8edec9;          
             border-radius: 0 19px 19px 0 ;
-          
-
+            transition: .4s ease-in-out;
             padding: 0;            
-            margin-right: -50px ;
-            transition: margin 0.5s ease-in-out;
 
                 &__icone{
                     height: 20px;
@@ -195,18 +219,19 @@ $color-secondary:#dc6edb;
                     color: #8edec9; 
                     background-color: white;                  
                     border-radius: 100px;
-                    transition : transform 0.7s ease-in-out;
-                    transform : rotate(180deg);
+                    transition: .6s ease-in-out;
+                    transform :rotate(180deg);
+                    opacity: 0;
                 }                        
         }  
         
         &__note:hover .cards__green{
-            // animation: test 1s ease-in-out;
-            margin-right : 0;
+            width: 100%;
         }  
 
         &__note:hover .cards__green__icone{
             transform : rotate(0);
+            opacity: 1;
 
         }    
         

@@ -10,16 +10,84 @@
 
 
     .functioning{
-        border:  1px solid red;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content:space-evenly;
+    
+        h2{
+            padding-left: 0;
+        }
+            
+        p{
+            font-size: 80%;
+        }
     }
     .cards{
-        &__functioning{             
-            width: 600px;
+        &__functioning{                  
+            width: 25%;
             margin:0;
-            padding: 0;
+            padding-left: 50px;
+        }        
+        &__restaurants{
+            // width: 80%;
+            margin:0;
         }
+        // &__note{
+        //     max-width: ;
+        // }
+        
+    }
+
+    .restaurants{
+        h2{
+            text-align: start;
+            padding-left: 59px;
+            margin-top: 50px;
+            font-weight: 900;
+        }
+    }
+
+    .grid__restaurants{
+        padding: 0 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 20px;
+    }
+
+    .menu_all{
+        display: grid;
+        margin-left: 20px;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 50px;        
+
+        .menu__entrees{
+            grid-column: 1;
+            
+        }
+        .menu__plats{
+            grid-column: 2;
+            
+        }
+
+        .menu__desserts{
+            grid-column: 3;
+            
+        }
+    }
+
+    footer{
+        > p{
+            padding-left: 30px;
+            margin-bottom: 30px;
+
+        } 
+
+        > a{
+            padding-left: 20px;
+        }
+      
     }
 }
