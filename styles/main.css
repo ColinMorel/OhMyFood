@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .btn {
   border: none;
   color: white;
@@ -259,8 +258,8 @@
   color: #8edec9;
   background-color: white;
   border-radius: 100px;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   opacity: 0;
@@ -696,8 +695,8 @@ footer i {
   color: #8edec9;
   background-color: white;
   border-radius: 100px;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   opacity: 0;
@@ -973,8 +972,8 @@ footer i {
   color: #8edec9;
   background-color: white;
   border-radius: 100px;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   opacity: 0;
@@ -1201,8 +1200,17 @@ footer i {
 
 .loader {
   width: 100%;
-  z-index: 1;
+  height: 100%;
+  background-color: #fff;
   position: fixed;
+  z-index: 2;
+  -webkit-animation: loading 4s 1s alternate ease-in-out;
+          animation: loading 4s 1s alternate ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.loader__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1213,21 +1221,16 @@ footer i {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 20%;
+  padding-top: 22%;
 }
 
-.loader p {
+.loader__text p {
   font-size: 50px;
   padding: 20px;
   width: 0;
   height: 0;
-  -webkit-transform: translate3d(0);
-          transform: translate3d(0);
-  -webkit-animation: bounce 0.5s infinite alternate ease-in-out;
-          animation: bounce 0.5s infinite alternate ease-in-out;
-  scale: 1;
+  -webkit-animation: bounce 0.2s infinite alternate ease-in-out;
+          animation: bounce 0.2s infinite alternate ease-in-out;
 }
 
 @-webkit-keyframes bounce {
@@ -1247,16 +1250,26 @@ footer i {
 }
 
 @-webkit-keyframes loading {
-  from {
+  99% {
+    z-index: 2;
   }
   to {
+    display: none;
+    background-color: transparent;
+    z-index: -2;
+    opacity: 0;
   }
 }
 
 @keyframes loading {
-  from {
+  99% {
+    z-index: 2;
   }
   to {
+    display: none;
+    background-color: transparent;
+    z-index: -2;
+    opacity: 0;
   }
 }
 
@@ -1565,8 +1578,8 @@ footer i {
   color: #8edec9;
   background-color: white;
   border-radius: 100px;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   opacity: 0;
@@ -1842,8 +1855,8 @@ footer i {
   color: #8edec9;
   background-color: white;
   border-radius: 100px;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   opacity: 0;
@@ -2279,8 +2292,8 @@ footer i {
   color: #8edec9;
   background-color: white;
   border-radius: 100px;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   opacity: 0;
@@ -2563,9 +2576,4 @@ footer i {
     padding-left: 20px;
   }
 }
-
-/* Mise en place de l'écran de chargement */
-/*body:not(.loader){
-    display: none;
-}*/
 /*# sourceMappingURL=main.css.map */
