@@ -29,13 +29,11 @@ $color-secondary:#dc6edb;
     border-radius: 30px;
     box-shadow: 0 0 0.5rem  darken($color-primary,30%); 
         &--pink{
-            background-color:darken($color-secondary,20);
+            background:linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
             transition: all 450ms;
             &:hover{
-                /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+                background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
                 box-shadow: 0 0 0.5rem  darken($color-primary,50%); 
-                background-color:lighten($color-secondary,10);
-                transform: scale(1.15);
             }
         }
 }
@@ -105,10 +103,10 @@ $color-secondary:#dc6edb;
     position: relative;
     box-sizing: border-box;
     // background-color:lighten(lightgrey,12%); 
-    background-color: lighten($color-secondary,32%);
+    background-color: lighten($color-secondary,40%);
 
     margin:0 20px;
-    padding:5px;
+    // padding:5px;
     margin-top: 10px;   
     @include shadow_btn();
     display: flex;   
@@ -117,12 +115,12 @@ $color-secondary:#dc6edb;
         &__functioning{ 
             position: relative;
             margin: 40px 20px;
-            padding-left: 10%;
             align-items: center;      
             border-radius: 15px;
             font-size: 1.5rem; 
                         
-            &:hover{        
+            &:hover{       
+                background-color:lighten(#dc6edb,30) ; 
                 :not(.numbers){
                     font-weight:bold;
                 }      

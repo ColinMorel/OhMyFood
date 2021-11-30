@@ -6,10 +6,8 @@
 
 
 @media screen and (min-width: 1510px)/*breakpoint Largeur Ipad*/ {
-
-
-
     .functioning{
+
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -90,4 +88,41 @@
         }
       
     }
+}
+
+@media screen and (max-width:540px){
+    .cards{
+        &__restaurants{
+            img{
+                height: auto;
+            }
+        }
+        &__functioning{
+            width: auto;
+        }
+    }
+
+}
+
+@media screen and (min-width:640px) and (max-width:1510px){
+    .functioning{
+        display: flex;
+        justify-content: center; 
+        align-items: center;  
+        flex-direction: column; 
+        flex-grow: 1;
+
+        gap:35px;
+       
+
+        h2{          
+            left: 10px;
+            top: 40px;
+        }          
+ 
+        .cards{
+            width: 599px;
+            margin:0;
+        }
+    }    
 }

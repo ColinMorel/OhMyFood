@@ -12,18 +12,15 @@
 }
 
 .btn--pink {
-  background-color: #b82cb6;
+  background: linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
 
 .btn--pink:hover {
-  /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+  background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
   -webkit-box-shadow: 0 0 0.5rem #545454;
           box-shadow: 0 0 0.5rem #545454;
-  background-color: #e697e5;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
 }
 
 .menus__hearths .hearth__base {
@@ -100,9 +97,8 @@
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #fcf1fc;
+  background-color: white;
   margin: 0 20px;
-  padding: 5px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 0.5rem #878787;
           box-shadow: 0 0 0.5rem #878787;
@@ -118,12 +114,15 @@
 .cards__functioning {
   position: relative;
   margin: 40px 20px;
-  padding-left: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   font-size: 1.5rem;
+}
+
+.cards__functioning:hover {
+  background-color: #fae9fa;
 }
 
 .cards__functioning:hover :not(.numbers) {
@@ -345,7 +344,7 @@ h1 {
 }
 
 .exploration {
-  background-color: #fcf1fc;
+  background-color: white;
   padding-bottom: 20px;
 }
 
@@ -373,18 +372,43 @@ h1 {
 }
 
 .icones__Functioning {
-  padding-right: 100px;
   color: #a0a0a0;
 }
 
 .numbers {
-  position: absolute;
-  color: white;
-  left: -17px;
+  position: relative;
+  left: -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px;
+  gap: 20px;
   font-size: 20px;
-  padding: 8px 14px;
+  color: white;
   background-color: #8f228e;
-  border-radius: 60%;
+  border-radius: 24px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.not__number {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .restaurants h2 {
@@ -455,18 +479,15 @@ footer i {
 }
 
 .btn--pink {
-  background-color: #b82cb6;
+  background: linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
 
 .btn--pink:hover {
-  /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+  background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
   -webkit-box-shadow: 0 0 0.5rem #545454;
           box-shadow: 0 0 0.5rem #545454;
-  background-color: #e697e5;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
 }
 
 .menus__hearths .hearth__base {
@@ -543,9 +564,8 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #fcf1fc;
+  background-color: white;
   margin: 0 20px;
-  padding: 5px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 0.5rem #878787;
           box-shadow: 0 0 0.5rem #878787;
@@ -561,12 +581,15 @@ footer i {
 .cards__functioning {
   position: relative;
   margin: 40px 20px;
-  padding-left: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   font-size: 1.5rem;
+}
+
+.cards__functioning:hover {
+  background-color: #fae9fa;
 }
 
 .cards__functioning:hover :not(.numbers) {
@@ -733,18 +756,15 @@ footer i {
 }
 
 .btn--pink {
-  background-color: #b82cb6;
+  background: linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
 
 .btn--pink:hover {
-  /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+  background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
   -webkit-box-shadow: 0 0 0.5rem #545454;
           box-shadow: 0 0 0.5rem #545454;
-  background-color: #e697e5;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
 }
 
 .menus__hearths .hearth__base {
@@ -821,9 +841,8 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #fcf1fc;
+  background-color: white;
   margin: 0 20px;
-  padding: 5px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 0.5rem #878787;
           box-shadow: 0 0 0.5rem #878787;
@@ -839,12 +858,15 @@ footer i {
 .cards__functioning {
   position: relative;
   margin: 40px 20px;
-  padding-left: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   font-size: 1.5rem;
+}
+
+.cards__functioning:hover {
+  background-color: #fae9fa;
 }
 
 .cards__functioning:hover :not(.numbers) {
@@ -1338,18 +1360,15 @@ footer i {
 }
 
 .btn--pink {
-  background-color: #b82cb6;
+  background: linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
 
 .btn--pink:hover {
-  /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+  background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
   -webkit-box-shadow: 0 0 0.5rem #545454;
           box-shadow: 0 0 0.5rem #545454;
-  background-color: #e697e5;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
 }
 
 .menus__hearths .hearth__base {
@@ -1426,9 +1445,8 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #fcf1fc;
+  background-color: white;
   margin: 0 20px;
-  padding: 5px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 0.5rem #878787;
           box-shadow: 0 0 0.5rem #878787;
@@ -1444,12 +1462,15 @@ footer i {
 .cards__functioning {
   position: relative;
   margin: 40px 20px;
-  padding-left: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   font-size: 1.5rem;
+}
+
+.cards__functioning:hover {
+  background-color: #fae9fa;
 }
 
 .cards__functioning:hover :not(.numbers) {
@@ -1616,18 +1637,15 @@ footer i {
 }
 
 .btn--pink {
-  background-color: #b82cb6;
+  background: linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
 
 .btn--pink:hover {
-  /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+  background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
   -webkit-box-shadow: 0 0 0.5rem #545454;
           box-shadow: 0 0 0.5rem #545454;
-  background-color: #e697e5;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
 }
 
 .menus__hearths .hearth__base {
@@ -1704,9 +1722,8 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #fcf1fc;
+  background-color: white;
   margin: 0 20px;
-  padding: 5px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 0.5rem #878787;
           box-shadow: 0 0 0.5rem #878787;
@@ -1722,12 +1739,15 @@ footer i {
 .cards__functioning {
   position: relative;
   margin: 40px 20px;
-  padding-left: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   font-size: 1.5rem;
+}
+
+.cards__functioning:hover {
+  background-color: #fae9fa;
 }
 
 .cards__functioning:hover :not(.numbers) {
@@ -1949,7 +1969,7 @@ h1 {
 }
 
 .exploration {
-  background-color: #fcf1fc;
+  background-color: white;
   padding-bottom: 20px;
 }
 
@@ -1977,18 +1997,43 @@ h1 {
 }
 
 .icones__Functioning {
-  padding-right: 100px;
   color: #a0a0a0;
 }
 
 .numbers {
-  position: absolute;
-  color: white;
-  left: -17px;
+  position: relative;
+  left: -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px;
+  gap: 20px;
   font-size: 20px;
-  padding: 8px 14px;
+  color: white;
   background-color: #8f228e;
-  border-radius: 60%;
+  border-radius: 24px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.not__number {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .restaurants h2 {
@@ -2059,18 +2104,15 @@ footer i {
 }
 
 .btn--pink {
-  background-color: #b82cb6;
+  background: linear-gradient(175deg, #FF79DA 0%, #9356DC 100%);
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
 
 .btn--pink:hover {
-  /*box-shadow: 0 0 2rem  darken($color-primary,50%);*/
+  background: linear-gradient(175deg, #FF79DA 100%, #9356DC 0%);
   -webkit-box-shadow: 0 0 0.5rem #545454;
           box-shadow: 0 0 0.5rem #545454;
-  background-color: #e697e5;
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
 }
 
 .menus__hearths .hearth__base {
@@ -2147,9 +2189,8 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #fcf1fc;
+  background-color: white;
   margin: 0 20px;
-  padding: 5px;
   margin-top: 10px;
   -webkit-box-shadow: 0 0 0.5rem #878787;
           box-shadow: 0 0 0.5rem #878787;
@@ -2165,12 +2206,15 @@ footer i {
 .cards__functioning {
   position: relative;
   margin: 40px 20px;
-  padding-left: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   border-radius: 15px;
   font-size: 1.5rem;
+}
+
+.cards__functioning:hover {
+  background-color: #fae9fa;
 }
 
 .cards__functioning:hover :not(.numbers) {
@@ -2588,6 +2632,45 @@ footer i {
   }
   footer > a {
     padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cards__restaurants img {
+    height: auto;
+  }
+  .cards__functioning {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1510px) {
+  .functioning {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    gap: 35px;
+  }
+  .functioning h2 {
+    left: 10px;
+    top: 40px;
+  }
+  .functioning .cards {
+    width: 599px;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

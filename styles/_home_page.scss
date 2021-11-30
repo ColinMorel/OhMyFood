@@ -43,7 +43,7 @@ h1{
 }
 
 .exploration{
-    background-color: lighten($color-secondary,32%);
+    background-color: lighten($color-secondary,40%);
     padding-bottom: 20px;
         h2{      
             margin-top: 0;
@@ -71,18 +71,34 @@ h1{
 }
 
 .icones__Functioning{
-    padding-right: 100px;
     color: darken($color-primary,20);
 } 
 
 .numbers{
-    position: absolute;
-    color:white;
-    left: -17px;
+    position: relative;
+    left: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24px;
+    height: 24px;
+    gap: 20px;
+    
     font-size: 20px;
-    padding: 8px 14px;
-    background-color: darken(#dc6edb,30) ;
-    border-radius: 60%;
+
+    color:white;
+    background-color: darken(#dc6edb,30) ;   
+    
+    border-radius: 24px;
+    flex-shrink: 0;
+}
+
+.not__number{
+    gap: 20px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
 }
 
 
