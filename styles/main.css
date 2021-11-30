@@ -2558,6 +2558,10 @@ footer i {
 }
 
 @media screen and (min-width: 1510px) {
+  .numbers {
+    position: relative;
+    left: -61px;
+  }
   .functioning {
     display: -webkit-box;
     display: -ms-flexbox;
