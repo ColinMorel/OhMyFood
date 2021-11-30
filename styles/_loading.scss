@@ -36,8 +36,7 @@
 @keyframes bounce{
     
     to{
-        transform: translate3d(0,50px,0);
-        scale: 2;        
+        transform: translate3d(0,50px,0) + scale(2); 
     }
 }
 

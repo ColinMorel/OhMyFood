@@ -41,7 +41,8 @@
   position: absolute;
   right: 20px;
   top: 57px;
-  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
   font-size: 200%;
   font-weight: 900;
   color: #dc6edb;
@@ -54,7 +55,8 @@
 }
 
 .menus__hearths:hover .hearth__hover {
-  scale: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .texte__cards__restaurants {
@@ -386,6 +388,11 @@ h1 {
   border-radius: 60%;
 }
 
+.restaurants h2 {
+  text-align: start;
+  padding-left: 20px;
+}
+
 .new {
   padding: 10px 20px;
   font-weight: 800;
@@ -478,7 +485,8 @@ footer i {
   position: absolute;
   right: 20px;
   top: 57px;
-  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
   font-size: 200%;
   font-weight: 900;
   color: #dc6edb;
@@ -491,7 +499,8 @@ footer i {
 }
 
 .menus__hearths:hover .hearth__hover {
-  scale: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .texte__cards__restaurants {
@@ -755,7 +764,8 @@ footer i {
   position: absolute;
   right: 20px;
   top: 57px;
-  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
   font-size: 200%;
   font-weight: 900;
   color: #dc6edb;
@@ -768,7 +778,8 @@ footer i {
 }
 
 .menus__hearths:hover .hearth__hover {
-  scale: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .texte__cards__restaurants {
@@ -1235,17 +1246,15 @@ footer i {
 
 @-webkit-keyframes bounce {
   to {
-    -webkit-transform: translate3d(0, 50px, 0);
-            transform: translate3d(0, 50px, 0);
-    scale: 2;
+    -webkit-transform: translate3d(0, 50px, 0)scale(2);
+            transform: translate3d(0, 50px, 0)scale(2);
   }
 }
 
 @keyframes bounce {
   to {
-    -webkit-transform: translate3d(0, 50px, 0);
-            transform: translate3d(0, 50px, 0);
-    scale: 2;
+    -webkit-transform: translate3d(0, 50px, 0)scale(2);
+            transform: translate3d(0, 50px, 0)scale(2);
   }
 }
 
@@ -1361,7 +1370,8 @@ footer i {
   position: absolute;
   right: 20px;
   top: 57px;
-  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
   font-size: 200%;
   font-weight: 900;
   color: #dc6edb;
@@ -1374,7 +1384,8 @@ footer i {
 }
 
 .menus__hearths:hover .hearth__hover {
-  scale: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .texte__cards__restaurants {
@@ -1638,7 +1649,8 @@ footer i {
   position: absolute;
   right: 20px;
   top: 57px;
-  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
   font-size: 200%;
   font-weight: 900;
   color: #dc6edb;
@@ -1651,7 +1663,8 @@ footer i {
 }
 
 .menus__hearths:hover .hearth__hover {
-  scale: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .texte__cards__restaurants {
@@ -1983,6 +1996,11 @@ h1 {
   border-radius: 60%;
 }
 
+.restaurants h2 {
+  text-align: start;
+  padding-left: 20px;
+}
+
 .new {
   padding: 10px 20px;
   font-weight: 800;
@@ -2075,7 +2093,8 @@ footer i {
   position: absolute;
   right: 20px;
   top: 57px;
-  scale: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
   font-size: 200%;
   font-weight: 900;
   color: #dc6edb;
@@ -2088,7 +2107,8 @@ footer i {
 }
 
 .menus__hearths:hover .hearth__hover {
-  scale: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .texte__cards__restaurants {
