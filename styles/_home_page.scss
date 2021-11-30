@@ -43,7 +43,7 @@ h1{
 }
 
 .exploration{
-    background-color: lighten(lightgrey,12%);
+    background-color: lighten($color-secondary,32%);
     padding-bottom: 20px;
         h2{      
             margin-top: 0;
@@ -81,7 +81,7 @@ h1{
     left: -17px;
     font-size: 20px;
     padding: 8px 14px;
-    background-color: darken(#dc6edb,29) ;
+    background-color: darken(#dc6edb,30) ;
     border-radius: 60%;
 }
 

@@ -12,9 +12,7 @@
 
     animation: loading 4s 1s alternate ease-in-out;
     animation-fill-mode: forwards;
-
     
-
     &__text{
         display: flex;
         justify-content: center;
@@ -28,7 +26,6 @@
             height: 0;
                        
             animation: bounce 0.2s infinite alternate ease-in-out;   
-            // animation-iteration-count: 8;
         }
     }
 }
@@ -69,25 +66,19 @@
 }
 .loader p:nth-child(8n+3){
     animation-delay: 1s ;
-
 }
 .loader p:nth-child(8n+4){
     animation-delay: 1.5s ;
-
 }
 .loader p:nth-child(8n+5){
     animation-delay: 2s ;
-
 }
 .loader p:nth-child(8n+6){
     animation-delay: 2.5s ;
-
 }
 .loader p:nth-child(8n+7){
     animation-delay: 3s ;
-
 }
 .loader p:nth-child(8n+8){
     animation-delay: 3.5s ;
-
 }

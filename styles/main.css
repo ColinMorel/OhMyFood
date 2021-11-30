@@ -100,7 +100,7 @@
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   margin: 0 20px;
   padding: 5px;
   margin-top: 10px;
@@ -126,13 +126,12 @@
   font-size: 1.5rem;
 }
 
-.cards__functioning:hover {
+.cards__functioning:hover :not(.numbers) {
   font-weight: bold;
-  color: black;
 }
 
 .cards__functioning:hover i {
-  color: black;
+  color: #8f228e;
 }
 
 .cards__restaurants {
@@ -346,7 +345,7 @@ h1 {
 }
 
 .exploration {
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   padding-bottom: 20px;
 }
 
@@ -384,7 +383,7 @@ h1 {
   left: -17px;
   font-size: 20px;
   padding: 8px 14px;
-  background-color: #932392;
+  background-color: #8f228e;
   border-radius: 60%;
 }
 
@@ -544,7 +543,7 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   margin: 0 20px;
   padding: 5px;
   margin-top: 10px;
@@ -570,13 +569,12 @@ footer i {
   font-size: 1.5rem;
 }
 
-.cards__functioning:hover {
+.cards__functioning:hover :not(.numbers) {
   font-weight: bold;
-  color: black;
 }
 
 .cards__functioning:hover i {
-  color: black;
+  color: #8f228e;
 }
 
 .cards__restaurants {
@@ -823,7 +821,7 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   margin: 0 20px;
   padding: 5px;
   margin-top: 10px;
@@ -849,13 +847,12 @@ footer i {
   font-size: 1.5rem;
 }
 
-.cards__functioning:hover {
+.cards__functioning:hover :not(.numbers) {
   font-weight: bold;
-  color: black;
 }
 
 .cards__functioning:hover i {
-  color: black;
+  color: #8f228e;
 }
 
 .cards__restaurants {
@@ -1429,7 +1426,7 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   margin: 0 20px;
   padding: 5px;
   margin-top: 10px;
@@ -1455,13 +1452,12 @@ footer i {
   font-size: 1.5rem;
 }
 
-.cards__functioning:hover {
+.cards__functioning:hover :not(.numbers) {
   font-weight: bold;
-  color: black;
 }
 
 .cards__functioning:hover i {
-  color: black;
+  color: #8f228e;
 }
 
 .cards__restaurants {
@@ -1708,7 +1704,7 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   margin: 0 20px;
   padding: 5px;
   margin-top: 10px;
@@ -1734,13 +1730,12 @@ footer i {
   font-size: 1.5rem;
 }
 
-.cards__functioning:hover {
+.cards__functioning:hover :not(.numbers) {
   font-weight: bold;
-  color: black;
 }
 
 .cards__functioning:hover i {
-  color: black;
+  color: #8f228e;
 }
 
 .cards__restaurants {
@@ -1954,7 +1949,7 @@ h1 {
 }
 
 .exploration {
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   padding-bottom: 20px;
 }
 
@@ -1992,7 +1987,7 @@ h1 {
   left: -17px;
   font-size: 20px;
   padding: 8px 14px;
-  background-color: #932392;
+  background-color: #8f228e;
   border-radius: 60%;
 }
 
@@ -2152,7 +2147,7 @@ footer i {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #fcf1fc;
   margin: 0 20px;
   padding: 5px;
   margin-top: 10px;
@@ -2178,13 +2173,12 @@ footer i {
   font-size: 1.5rem;
 }
 
-.cards__functioning:hover {
+.cards__functioning:hover :not(.numbers) {
   font-weight: bold;
-  color: black;
 }
 
 .cards__functioning:hover i {
-  color: black;
+  color: #8f228e;
 }
 
 .cards__restaurants {
